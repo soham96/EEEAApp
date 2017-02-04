@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_3b1bf526a26397bf6d4b13579bc490e32a6eef4f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_b36bd95195a7b00b54215d06998543cb40101064\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.11.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="86da97c30f50a67ddabe2cf7040713ad17153fce">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.facebook.android-facebook-android-sdk-4.11.0_29bd253e9cd4fbc9bda3d1a9d66a4e671fe4f1bf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_e10929cb200cc5b3b0406a2c8e71de0a6addc415\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-24.0.0_8cb2718daa70b2d465b8163693557b14392dd1e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_136cebe675a4a23d5f7eb8e3c6e076f2d7cb894b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_82284b975dd0e747ef6cefe36299fa57ac44db5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_8da7af9f749c37934a643deaaddf7fe2cabfced4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-jvm\2.3.1\4d53b7d6983247af02b8fe7e4228fff555a5e828\firebase-client-jvm-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4d53b7d6983247af02b8fe7e4228fff555a5e828">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-jvm-2.3.1_ac1cc596f468a8e4002eb1bada3d87980af48616\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\customtabs\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e5a66a941515d873a34065fe44fbba6ef422a1b">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-customtabs-23.2.1_28a5f43c059f8753669d462de9d9a9d84af937c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-auth\0.4.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37e245cd01989dcaca6a48699d0152f0997fb246">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-auth-0.4.4_9f473753a614baaff342df54b67918e22bf2b772\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.2.2\d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b\jackson-core-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d20be6a5ddd6f8cfd36ebf6dea329873a1c41f1b">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-core-2.2.2_7e1eb7088b36aab5feebfb59871fe087db1236dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_26d15c190de098f35972c6b09098e31b29326d7e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_2b9f36805ab324232ea8cfc05f40197504a8f0c4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.2.2\285cb9c666f0f0f3dd8a1be04e1f457eb7b15113\jackson-annotations-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="285cb9c666f0f0f3dd8a1be04e1f457eb7b15113">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-annotations-2.2.2_e57dfbd65e579b706ed03c3d8d7346d7e0bfca63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.0.0_585581845725545ab28fb796427703d3d8e90dd9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.0.0_2cc466e30b6aef399cc304555d4042a5a4567822\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_27e070d45ade61f0e69b4190e8398a5ca07fe30d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.0.0_fc16a535cf3ff4f02af21ed4e020ce2294ba6f78\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_60407649b6df8758f40437db97b9c1c97b32f5c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-applinks-1.4.0_eb4b68e30d6946bd3811fac3fdbf5bcc1f7ac995\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_cdf11286f215c32a5deaa4263f40f30fd8ab977a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_684a4028057ef2f25f883b0a9e548325dc95af34\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_0908eeb20637c2bcc03ab64b055c45b09ce92a45\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\bolts-tasks-1.4.0_2d2a14e65c7b692836b6e46be226dcc71c43985e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_d75e85f90d86c20610215aa28ebd6ab6ab36b7cf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ce9ed2a8c192a79f484e911fe81cd640da5c668">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_eaffdd934975ff1390bc5776bb24ca8a2c52b0f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a5a79f7d1a8fa4bee20122540f0e51f5dcd42b0a">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_a81c0966b254ef52b135ac56ab983fdc2ba6ac11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_b1060a796c5db834e202a64d94d06ae94ad175b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.2.2\3c8f6018eaa72d43b261181e801e6f8676c16ef6\jackson-databind-2.2.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3c8f6018eaa72d43b261181e801e6f8676c16ef6">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\jackson-databind-2.2.2_d2849b85aacc5e051c46f0603f5083cf3c913723\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_b2506e3e4f3134cc19bebdf69970e10e9601fd9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.firebase\firebase-client-android\2.3.1\be29b24233711c419ce935aa0a1b12ebc49d1c9a\firebase-client-android-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="be29b24233711c419ce935aa0a1b12ebc49d1c9a">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\firebase-client-android-2.3.1_409b21ff04f2eb284d63b487c3f5296a6e617251\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.0.0_940564e5f060169c7d22a84a7f87bfd03cf5f46a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cb86970df0f0f25f766d320b279c7858c1ca0003">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-23.2.1_520822ac1137b24756c69948aa75585aff3eadef\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui\0.4.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6410576864efb5ed0ec9f10c8e091909959ae27c">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-0.4.4_409d7d5f3937a4cc0aa770b762e49feb0906717b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_ec09c6a195c26502408542445dbe52689420e4a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.firebaseui\firebase-ui-database\0.4.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="acb0b23366d6d35b86d6564fcabf3a2ef439f9af">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.firebaseui-firebase-ui-database-0.4.4_8bfe0c1e1bcd2c5dc50a44b0877e2a0d23cd37e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_4c5db1721ab1aac87e520c26007e1c2a8d93ce51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.firebase\tubesock\0.0.11\d37cb67277928cf59344b4196af8d9cee1f1a27c\tubesock-0.0.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d37cb67277928cf59344b4196af8d9cee1f1a27c">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\tubesock-0.0.11_25a6abf44ec3b40f64ca566ad86c31d8a94509db\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_da1e1e54de431adf3ccc9ed1422f563ba88523c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Soham\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\Soham\Desktop\EEEAApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_8a4e16d8b3ecd7eef35891e647ff803bd9c4653c\classes.dex" />
+    </item>
+
+</items>

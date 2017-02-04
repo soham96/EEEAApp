@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "909779259040",
+    "firebase_url": "https://eeea-app.firebaseio.com",
+    "project_id": "eeea-app",
+    "storage_bucket": "eeea-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909779259040:android:9f4f98e4780f5d2a",
+        "android_client_info": {
+          "package_name": "eeea.eeeaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909779259040-3drl413986fjee8t0d0kubb9s9jl7k6s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eeea.eeeaapp",
+            "certificate_hash": "16475BAA87377368339FD8EF0448E97DE7225A54"
+          }
+        },
+        {
+          "client_id": "909779259040-7njd4f13nf9bllucjcdl4buvrdkuum6o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAajgLL6FF4xacRTDO6orGH3Iaqa9cWkhQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909779259040-7njd4f13nf9bllucjcdl4buvrdkuum6o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
