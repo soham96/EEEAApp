@@ -28,7 +28,6 @@
         <activity android:name=".New_post" />
         <activity android:name=".mainpage" />
         <activity android:name=".notes" />
-        <activity android:name=".mag" />
         <activity android:name=".notification" />
         <activity android:name=".search" />
         <activity android:name=".user" />
