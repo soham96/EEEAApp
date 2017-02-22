@@ -2,6 +2,7 @@ package eeea.eeeaapp;
 
 import android.content.Context;
 import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +14,7 @@ import android.widget.ImageView;
 
 public class image_swipe extends PagerAdapter{
 
-    private int [] ImageResources= {R.drawable.peace, R.drawable.newyear};
+    private int [] ImageResources= {R.mipmap.img1, R.mipmap.img2, R.mipmap.img3, R.mipmap.img4};
 
     private Context ctx;
     private LayoutInflater layoutInflater;
@@ -42,7 +43,7 @@ public class image_swipe extends PagerAdapter{
 
     @Override
     public void destroyItem(ViewGroup container, int position, Object object) {
-        super.destroyItem(container, position, object);
+        ((ViewPager) container).removeView((View) object);
 
     }
 

@@ -64,15 +64,16 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:ems="10"
-                android:id="@+id/editText"
-                android:autoLink="web"
+                android:id="@+id/postlink"
+                android:autoLink="web|all"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="10dp"
                 android:paddingLeft="20dp"
                 android:paddingRight="20dp"
                 android:paddingTop="20dp"
-                android:hint="Post Link" />
+                android:hint="Post Link"
+                android:linksClickable="true" />
 
             <Button
                 android:text="Submit"

@@ -27,6 +27,7 @@ public class New_post extends AppCompatActivity {
 
     private EditText newtitle;
     private EditText newdescription;
+    private EditText newlink;
     private Uri imageUri = null;
     private Button submitbtn;
 
@@ -49,6 +50,7 @@ public class New_post extends AppCompatActivity {
 
         newtitle= (EditText) findViewById(R.id.Post_title);
         newdescription= (EditText) findViewById(R.id.Post_description);
+        newlink=(EditText) findViewById(R.id.postlink) ;
 
         submitbtn= (Button) findViewById(R.id.bt_newpost);
 
@@ -85,6 +87,7 @@ public class New_post extends AppCompatActivity {
 
         final String title= newtitle.getText().toString().trim();
         final String description= newdescription.getText().toString().trim();
+        final String link=newlink.getText().toString().trim();
 
         if(!TextUtils.isEmpty(title) && !TextUtils.isEmpty(description) && imageUri!=null)
         {
@@ -102,9 +105,14 @@ public class New_post extends AppCompatActivity {
                     newPost.child("title").setValue(title);
                     newPost.child("desc").setValue(description);
                     newPost.child("image").setValue(downloadUrl.toString());
+                    newPost.child("link").setValue(link);
 
 
                     progress.dismiss();
+
+                    Intent intent = new Intent(New_post.this, mainpage.class);
+                    intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(intent);
                 }
             });
         }

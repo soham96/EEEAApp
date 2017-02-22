@@ -42,22 +42,18 @@
              android:paddingRight="10dp"
              android:paddingTop="10dp" />
 
-         <LinearLayout
-             android:orientation="horizontal"
+         <TextView
+             android:text="post link comes here"
              android:layout_width="match_parent"
-             android:layout_height="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/postlink"
              android:paddingLeft="10dp"
              android:paddingRight="10dp"
-             android:paddingTop="10dp">
-
-             <ImageButton
-                 android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 app:srcCompat="@mipmap/ic_thumb_up_white_24dp"
-                 android:id="@+id/like_btn"
-                 android:adjustViewBounds="false"
-                 android:background="@color/buttonColor" />
-         </LinearLayout>
+             android:paddingTop="10dp"
+             android:autoLink="web|all"
+             android:clickable="true"
+             android:contextClickable="true"
+             android:linksClickable="true" />
 
      </LinearLayout>
 </android.support.v7.widget.CardView>

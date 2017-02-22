@@ -2,6 +2,7 @@ package eeea.eeeaapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -13,6 +14,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DataSnapshot;
@@ -34,7 +36,15 @@ public class notes extends AppCompatActivity {
     private Button search;
     private Button userpage;
 
+    private boolean backPressedOnce = false;
+    private Handler statusUpdateHandler;
+    private Runnable statusUpdateRunnable;
+
+    private LinearLayoutManager linearLayoutManager;
+
+
     private Boolean mProcessLike = false;
+    private boolean doubleBackToExitPressedOnce = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,15 +59,16 @@ public class notes extends AppCompatActivity {
 
         noteslist = (RecyclerView) findViewById(R.id.classnotes);
         noteslist.setHasFixedSize(true);
-        noteslist.setLayoutManager(new LinearLayoutManager(this));
-        LinearLayoutManager llm = new LinearLayoutManager(this);
-        noteslist.setLayoutManager(llm);
+        linearLayoutManager=new LinearLayoutManager(notes.this);
+        linearLayoutManager.setReverseLayout(true);
+        linearLayoutManager.setStackFromEnd(true);
+        noteslist.setLayoutManager(linearLayoutManager);
 
         button = (Button) findViewById(R.id.home);
         notification = (Button) findViewById(R.id.notification);
         mag = (Button) findViewById(R.id.mag);
-        search = (Button) findViewById(R.id.search);
         userpage = (Button) findViewById(R.id.user);
+
 
 
         userpage.setOnClickListener(new View.OnClickListener() {
@@ -74,15 +85,6 @@ public class notes extends AppCompatActivity {
             public void onClick(View view) {
 
                 Intent intent = new Intent(notes.this, notes.class);
-                startActivity(intent);
-            }
-        });
-
-        search.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent intent = new Intent(notes.this, search.class);
                 startActivity(intent);
             }
         });
@@ -123,28 +125,9 @@ public class notes extends AppCompatActivity {
 
                 viewHolder.setTitle(model.getTitle());
                 viewHolder.setDesc(model.getDesc());
+                viewHolder.setLink(model.getLink());
                 viewHolder.setImage(getApplicationContext(), model.getImage());
 
-                viewHolder.likebtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-
-                        mProcessLike = true;
-                        if (mProcessLike == true) {
-                            databaseLike.addValueEventListener(new ValueEventListener() {
-                                @Override
-                                public void onDataChange(DataSnapshot dataSnapshot) {
-
-                                }
-
-                                @Override
-                                public void onCancelled(DatabaseError databaseError) {
-
-                                }
-                            });
-                        }
-                    }
-                });
             }
         };
 
@@ -155,13 +138,10 @@ public class notes extends AppCompatActivity {
 
         View view;
 
-        public ImageButton likebtn;
-
         public BlogViewHolder(View itemView) {
             super(itemView);
 
             view = itemView;
-            likebtn = (ImageButton) view.findViewById(R.id.like_btn);
         }
 
         public void setTitle(String tile) {
@@ -172,6 +152,12 @@ public class notes extends AppCompatActivity {
         public void setDesc(String desc) {
             TextView post_desc = (TextView) view.findViewById(R.id.postdesc);
             post_desc.setText(desc);
+        }
+
+        public void setLink(String link)
+        {
+            TextView post_link=(TextView) view.findViewById(R.id.postlink);
+            post_link.setText(link);
         }
 
         public void setImage(Context ctx, String image) {
@@ -202,5 +188,27 @@ public class notes extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void onBackPressed() {
+        if (doubleBackToExitPressedOnce) {
+            Intent intent = new Intent();
+            intent.setAction(Intent.ACTION_MAIN);
+            intent.addCategory(Intent.CATEGORY_HOME);
+
+            startActivity(intent);
+        }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+            }
+        }, 2000);
+
     }
 }

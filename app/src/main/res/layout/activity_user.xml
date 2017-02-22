@@ -7,75 +7,58 @@
     tools:context="eeea.eeeaapp.user"
     android:background="@mipmap/back">
 
-
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:scaleType="fitCenter"
-        android:id="@+id/Logo"
-        android:src="@mipmap/logo"
-        android:layout_marginStart="33dp"
-        android:layout_marginTop="33dp"
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/profilepage"
+        android:clickable="false"
+        android:fadeScrollbars="true"
+        android:contextClickable="false"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:scrollIndicators="none"
+        android:scrollbars="none"
+        android:layout_height="500dp">
+    </android.support.v7.widget.RecyclerView>
 
-    <TextView
-        android:text="Contact Details"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView10"
-        android:layout_alignStart="@+id/textView10"
-        android:layout_marginTop="62dp"
-        android:id="@+id/textView11" />
 
-    <TextView
-        android:text="EEE Association"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView9"
-        android:layout_above="@+id/textView10"
-        android:layout_alignParentEnd="true"
-        android:layout_marginBottom="39dp"
-        android:layout_toEndOf="@+id/Logo" />
-
-    <TextView
-        android:text="User Details"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView10"
-        android:layout_below="@+id/Logo"
-        android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/Logo" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="5"
         android:gravity="center"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp">
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearlayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
 
         <Button
-            android:layout_width="50dp"
             android:layout_height="50dp"
             android:scaleType="fitCenter"
             android:id="@+id/mag"
             android:background="@mipmap/mag"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:layout_weight="1" />
+            android:layout_width="50dp" />
 
         <Button
             android:id="@+id/home"
             android:background="@mipmap/ic_home_black_24dp"
-            android:layout_width="50dp"
             android:layout_height="50dp"
             android:scaleType="fitCenter"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_weight="1" />
+            android:layout_width="70dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/notification"
+            android:background="@mipmap/ic_notifications_active_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/home"
+             />
 
         <Button
             android:layout_width="50dp"
@@ -85,27 +68,7 @@
             android:background="@mipmap/ic_account_circle_black_24dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
-            android:layout_weight="1" />
-
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:scaleType="fitCenter"
-            android:id="@+id/search"
-            android:background="@mipmap/ic_search_black_24dp"
-            android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@+id/mag"
-            android:layout_weight="1" />
-
-        <Button
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:scaleType="fitCenter"
-            android:id="@+id/notification"
-            android:background="@mipmap/idea"
-            android:layout_alignParentBottom="true"
-            android:layout_toEndOf="@+id/home"
-            android:layout_weight="1" />
+             />
     </LinearLayout>
 
 </RelativeLayout>

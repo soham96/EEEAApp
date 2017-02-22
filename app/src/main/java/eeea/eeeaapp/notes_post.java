@@ -6,7 +6,20 @@ package eeea.eeeaapp;
 
 public class notes_post {
 
-    private String title, desc, image;
+    private String title;
+    private String desc;
+    private String image;
+    private String link;
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
+
 
     public notes_post(){}
 
@@ -15,6 +28,7 @@ public class notes_post {
         this.title=title;
         this.desc=desc;
         this.image=image;
+        this.link=link;
     }
 
     public String getDesc() {

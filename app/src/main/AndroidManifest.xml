@@ -5,11 +5,11 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".EEEAAPP"
+        android:name=".EEEAPP"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:icon="@mipmap/invention_launcher"
+        android:label="AmpUp"
         android:largeHeap="true"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -20,17 +20,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
         <activity android:name=".Register" />
         <activity
             android:name=".Main_activity"
             android:label="@string/title_activity_main_activity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".New_post" />
-        <activity android:name=".mainpage" />
-        <activity android:name=".notes" />
-        <activity android:name=".notification" />
-        <activity android:name=".search" />
-        <activity android:name=".user" />
+        <activity android:name=".mainpage"
+            android:label="Home"/>
+        <activity android:name=".notes"
+            android:label="Notes"/>
+        <activity android:name=".notification"
+            android:label="Announcements"/>
+        <activity android:name=".user"
+            android:label="Profile"/>
+        <activity android:name=".password" />
+        <activity android:name=".aboutus"
+            android:label="About Us"/>
+        <activity android:name=".add_notification"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="eeea.eeeaapp.notes"
+    android:background="@mipmap/back">
+
+
+    <TextView
+        android:text="About Us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:text="SomC n ArchV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14"
+        android:layout_above="@+id/linearlayout1"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/linearlayout1"
+        android:weightSum="1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/mag"
+            android:background="@mipmap/mag"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_width="50dp" />
+
+        <Button
+            android:id="@+id/home"
+            android:background="@mipmap/ic_home_black_24dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="70dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/notification"
+            android:background="@mipmap/ic_notifications_active_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/home"
+            />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:id="@+id/user"
+            android:background="@mipmap/ic_account_circle_black_24dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:text="We are constantly trying to add new features and improve the functionality of the app. If you find any bugs or feel like a feature could be added to improve your experience, then do not hesitate to reach out to us. We would love to hear your queries and comments about the app."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Reach us at +91-9176045273, or send us an email at rosoyeta@gmail.com!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView12"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_below="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
